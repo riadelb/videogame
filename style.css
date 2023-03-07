@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+.boutons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card{
+    margin: 6px;
+    margin-bottom: 20px;
+    
+}
+.cartes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+.img1{
+    background-image: url(/images/backgroung-image.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.img2{
+    height: 70px;
+    width: 190px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+main{
+    margin-left: 380px;
+    margin-right: 380px;
+}
+.nav ul{
+    list-style: none;
+    }
+    .consoles > li{
+        position: relative;
+    }
+    .consoles >li >a{
+        display: block;
+        
+    }
+    .consoles li a{
+        color: white;
+    }
+    .consoles .submenu a:hover{
+        background-color: rgb(255, 255, 255);
+        color: rgb(7, 23, 204);
+        
+    }
+    .submenu{
+        position: absolute;
+        display: none;
+    }
+    .submenu li a{
+        display: block;
+        text-decoration: none;
+    }
+    .consoles li:hover .submenu{
+        display: block;
+    }.consoles{
+        display: flex;
+        flex-direction: row;
+        margin-left: 200px;
+        border-radius: 10px;
+    }
+    li{
+        margin: 1px;
+    }
+    
